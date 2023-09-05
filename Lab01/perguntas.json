@@ -1,0 +1,183 @@
+{
+  "intents": [
+    {
+      "tag": "Saudacoes",
+      "patterns": ["Oi", "Oie", "Olá", "Bom dia", "Boa tarde", "Boa noite"],
+      "responses": [
+        "Olá! Bem vindo!",
+        "Olá! Como posso ajudar?",
+        "Bom dia! Como posso ajudar?"
+      ]
+    },
+    {
+      "tag": "Despedida",
+      "patterns": ["Ok", "Obrigada", "Obrigado", "Até mais!"],
+      "responses": [
+        "Volte sempre!",
+        "Até logo!",
+        "Tchau! Espero ter ajudado!",
+        "Volte se surgirem outras duvidas! Será um prazer ajudar.",
+        "Tenha um ótimo dia!"
+      ]
+    },
+    {
+      "tag": "PIPE",
+      "patterns": ["O que é PIPE?", "O que é o Programa PIPE?"],
+      "responses": [
+        "O Programa Pesquisa Inovativa em Pequenas Empresas da FAPESP destina-se a apoiar a execução de pesquisa científica e tecnológica em pequenas empresas no Estado de São Paulo. Seus objetivos são apoiar a pesquisa em ciência e tecnologia como instrumento para promover a inovação tecnológica e o desenvolvimento empresarial, aumentar a competitividade das pequenas empresas, possibilitar que as empresas se associem a pesquisadores do ambiente acadêmico em projetos de pesquisa visando à inovação tecnológica e contribuir para a formação e o desenvolvimento de núcleos de desenvolvimento tecnológico nas empresas e para o emprego de pesquisadores no mercado de trabalho empresarial criando uma cultura permanente de inovação."
+      ]
+    },
+    {
+      "tag": "ComoSubmeterProjeto",
+      "patterns": ["Como submeter um projeto?", "Como enviar um projeto?"],
+      "responses": [
+        "Para submeter um projeto ao Programa PIPE, você geralmente precisa seguir esses passos:\n1. Acesse o site da FAPESP e a seção do Programa PIPE.\n2. Elabore um projeto de pesquisa inovadora que atenda aos critérios do programa.\n3. Cadastre-se no sistema online da FAPESP e submeta seu projeto.\n4. O projeto será avaliado por especialistas.\n5. A FAPESP revisará as avaliações e decidirá sobre o financiamento.\n6. Se aprovado, execute o projeto de acordo com o plano aprovado."
+      ]
+    },
+    {
+      "tag": "ObjetivoPIPE",
+      "patterns": ["Qual é o objetivo da PIPE?", "Qual é objetivo?"],
+      "responses": [
+        "São objetivos do PIPE:\n1. Apoiar a pesquisa em ciência e tecnologia como instrumento para promover a inovação tecnológica, promover o desenvolvimento empresarial e aumentar a competitividade das pequenas empresas.\n2. Incrementar a contribuição da pesquisa para o desenvolvimento econômico e social.\n3. Induzir o aumento do investimento privado em pesquisa tecnológica.\n4. Possibilitar que as empresas se associem a pesquisadores do ambiente acadêmico em projetos de pesquisa visando à inovação tecnológica.\n5. Contribuir para a formação e o desenvolvimento de núcleos de desenvolvimento tecnológico nas empresas e para o emprego de pesquisadores no mercado."
+      ]
+    },
+    {
+      "tag": "EtapasPIPE",
+      "patterns": ["Quais são todas as fases do programa PIPE ?","Quantas fases tem o PIPE?", "Como é dividido o PIPE?"],
+      "responses": [
+        "O Programa PIPE da FAPESP consiste em um programa de financiamento para pesquisa e inovação em empresas de pequeno porte do estado de São Paulo. O programa ocorre em 3 fases:"
+      ]
+    },
+    {
+      "tag": "Fase1",
+      "patterns": ["O que é a fase 1?", "O que ocorre na fase 1?", " A fase 1 é obrigatória?"],
+      "responses": [
+        "Fase 1: é destinada à verificação da viabilidade técnico-científica da proposta, (duração de até 9 meses e orçamento de até R$ 300.000, mais Reserva Técnica e Benefícios Complementares).\n Essa fase não é obrigatória, a empresa pode submeter uma proposta diretamente para a Fase 2.  "
+      ]
+    },
+    {
+      "tag": "Fase2",
+      "patterns": ["O que é a fase 2?", "O que ocorre na fase 2?", " A fase 2 é obrigatória?"],
+      "responses": [
+        " Fase 2: destina-se à execução da pesquisa propriamente dita (duração de até 24 meses e orçamento de até R$ 1.500.000, mais Reserva Técnica e Benefícios Complementares);.\nA empresa pode submeter uma proposta diretamente para essa fase. "
+      ]
+    },
+    {
+      "tag": "Fase3",
+      "patterns": ["O que é a fase 3?", "O que ocorre na fase 3?", " A fase 3 é obrigatória?"],
+      "responses": [
+        " Fase 3: Desenvolvimento comercial e industrial dos produtos, processos, sistemas e/ou serviços inovadores obtidos a partir de pesquisas anteriores realizadas pela pequena empresa sem o apoio da FAPESP ou a partir de pesquisa apoiada no âmbito do PIPE "
+      ]
+    },
+    {
+      "tag": "FeitonaEmpresa",
+      "patterns": ["O projeto de pesquisa só pode ser feito na empresa?", "Ele ocorre em empresas?", " A pesquisa tem que ser feita na empresa?"],
+      "responses": [
+        " Sim, obrigatoriamente. O PIPE destina-se a apoiar a execução de pesquisa EM pequenas empresas sediadas no Estado de São Paulo,\n conforme está explicitado nas normas do programa https://fapesp.br/pipe/normas/#1."
+      ]
+    },
+    {
+      "tag": "OqueEmpresa",
+      "patterns": ["O que é uma empresa?", " O que é uma empresa para fins de submissäo do PIPE?"],
+      "responses": [
+        " É uma empresa com até 250 funcionários, independentemente do seu faturamento.\nA FAPESP considera empresa as sociedades empresárias previstas no Código Civil, o empresário individual, o microempreendedor individual (MEI), a sociedade limitada unipessoal e as sociedades simples. \nAssociações, fundações, institutos e cooperativas não podem sediar um PIPE da FAPESP."
+      ]
+    },
+    {
+      "tag": "TerEmpresa",
+      "patterns": ["Eu preciso ter uma empresa para pedir o PIPE?", " Eu já tenho que ter uma empresa para solicitar o PIPE?"],
+      "responses": [
+        " Não. A FAPESP analisa propostas de empresas ainda não constituídas. Empresas startup ainda não constituídas legalmente são incentivadas a submeter. \nNos casos em que a proposta for recomendada, o proponente deverá então abrir formalmente a empresa antes da concessão da proposta."
+      ]
+    },
+    {
+      "tag": "EnvioPIPE",
+      "patterns": ["Quando posso enviar uma proposta ao PIPE?", "Quando realizo o envio ao PIPE?"],
+      "responses": [
+        " As propostas para o PIPE Fase 1, Fase 2 e PIPE Invest são recebidas em fluxo contínuo durante todo o ano."
+      ]
+    },
+    {
+      "tag": "AreasPIPE",
+      "patterns": ["O PIPE é focado em alguma área?", "Tem áreas prioritárias no PIPE?", "Qual a área de foco do PIPE?"],
+      "responses": [
+        "O PIPE visa a apoiar pesquisas promissoras, com potencial de inovação, em qualquer área do conhecimento, näo focando em uma área específica."
+      ]
+    },
+    {
+      "tag": "ProdutoDesenvolvido",
+      "patterns": ["Ja tenho um produto desenvolvido, posso participar do PIPE?", "Tenho um produto pronto, posso solicitar o financiamento PIPE?"],
+      "responses": [
+        "Não. O objetivo do PIPE é apoiar projetos de pesquisa para inovação, oferecendo recursos para custear a pesquisa visando ao desenvolvimento de um produto, processo ou serviço inovador.\n Se o produto já foi desenvolvido, as Fases 1 e 2 do PIPE não são necessárias para financiar pesquisa para se chegar a ele. Nesse caso, a proposta pode ser elegível para outros programas de subvenção econômica, no PIPE Fase 3, financiados em parceria com terceiros."
+      ]
+    },
+    {
+      "tag": "Formacao",
+      "patterns": ["Possuo formaçäo em uma área, posso submeter o projeto em outra área?", "Tenho uma formaçäo diferente da área que quero fazer o projeto, posso solicitar o PIPE?"],
+      "responses": [
+        "No PIPE, o fundamental é demonstrar experiência na área do projeto. É importante que a equipe inclua profissionais de todas as áreas relevantes para a pesquisa.\n No entanto, nem todos os membros da equipe precisam ter relação direta com a empresa; podem ser incluídos na equipe especialistas de universidades e consultores, remunerados ou não, para complementar as especialidades necessárias à condução da pesquisa. "
+      ]
+    },
+    {
+      "tag": "ForadeSP",
+      "patterns": ["Sou de fora do Estado de São Paulo, posso apresentar meu projeto?", "Näo sou de SP, posso apresentar meu projeto?","A empresa é de fora de São Paulo, pode apresentar o PIPE?"],
+      "responses": [
+        " O Pesquisador Responsável deverá residir no estado de São Paulo para ser elegível ao PIPE.\n Caso a empresa já esteja constituída fora do estado de São Paulo, o pesquisador deverá submeter o projeto, obrigatoriamente, em nome dessa empresa.\n Ter unidade de pesquisa constituída no estado de São Paulo é condição para a concessão do processo.\n Adicionalmente, pesquisadores de outros estados que venham a instalar novas empresas em São Paulo e se tornem residentes no estado, também são elegíveis.."
+      ]
+    },
+    {
+      "tag": "SolicitacaoBolsaPIPE",
+      "patterns": ["Quantas bolsas de pesquisa em pequena empresa posso solicitar?", "Quantas bolsas posso solicitar?"],
+      "responses": [
+        "Normalmente, a cada projeto de empresas com pouco faturamento cabe uma única bolsa PE. Em condições excepcionais e muito bem justificadas, uma segunda bolsa PE pode ser solicitada. Nesse caso, dois planos de atividades precisam ser apresentados indicando claramente as atividades de cada bolsista PE no projeto. No caso de empresas com grande faturamento, espera-se que a própria empresa pague o pesquisador principal."
+      ]
+    },
+    {
+      "tag": "ElegibilidadePIPE",
+      "patterns": ["Quem pode se candidatar ao PIPE?", "Quais são os requisitos de elegibilidade?"],
+      "responses": [
+        "Empresas de pequeno porte que estejam sediadas no Estado de São Paulo podem se candidatar ao PIPE. Além disso, o projeto deve ter uma proposta de pesquisa inovadora e viável."
+      ]
+    },
+    {
+      "tag": "DocumentecaoPIPE",
+      "patterns": ["Quais documentos são necessários para submeter o projeto?", "O que devo incluir na documentação?"],
+      "responses": ["A documentação necessária pode variar, mas geralmente inclui um plano de pesquisa, orçamento, cronograma, entre outros. Recomendo verificar o edital mais recente da FAPESP para obter detalhes precisos."]
+    },
+    {
+      "tag": "Universidade",
+      "patterns": ["Posso desenvolver a pesquisa na Universidade?", "Posso desenvolver dentro da Universidade o projeto?"],
+      "responses": ["A pesquisa deve ser desenvolvida na empresa. Eventualmente, algumas atividades específicas da pesquisa podem ser sub-contratadas de laboratórios de universidades ou de consultores acadêmicos desde que muito bem justificadas e não se constituam na parte central da pesquisa."]
+    },
+    {
+      "tag": "EmprestimoFAPESP",
+      "patterns": ["O PIPE é um empréstimo?", "A FAPESP faz um empréstimo?"],
+      "responses": ["O apoio da FAPESP para o PIPE não é realizado na forma de empréstimo."]
+    },
+    {
+      "tag": "SocioFAPESP",
+      "patterns": ["A FAPESP fica com uma parcela da empresa?", "A FAPESP vira sócia da empresa?", "A FAPESP é sócia do meu projeto?"],
+      "responses": ["A FAPESP não recebe cotas da empresa."]
+    },
+    {
+      "tag": "Avaliadores",
+      "patterns": ["Quem säo os avaliadores?", "Quem avalia o projeto?", "Como e quem são os avaliadores?"],
+      "responses": ["A FAPESP seleciona especialistas das áreas de conhecimento envolvidas no projeto para avaliá-lo.\nProjetos PIPE Fase 1 são avaliados por pelo menos dois assessores e projetos Fase 2 são avaliados por pelo menos 3 assessores.\n A identidade dos assessores é mantida em confidencialidade pela FAPESP, como faz a maior parte das agências de financiamento à pesquisa no mundo.\nOs assessores emitem pareceres e a FAPESP os reúne em comitês de avaliação que debatem cada caso e elaboram um novo parecer sobre cada projeto.\n Com base em todos esses pareceres e em uma entrevista com os proponentes, a Coordenação de Área e a Coordenação Adjunta de Pesquisa para Inovação fazem uma recomendação final à Diretoria Científica que emite a decisão final."]
+    },
+    {
+      "tag": "Selecao",
+      "patterns": ["Como é feito a seleçäo?", "Como é selecionado os projetos?"],
+      "responses": ["Os projetos submetidos ao programa passam por um processo de avaliação criterioso, que considera aspectos como a qualidade científica e tecnológica da proposta, o potencial de inovação, a viabilidade técnica e econômica, entre outros.\n Um comitê de especialistas avalia os projetos e decide quais serão financiados."]
+    },
+    {
+      "tag": "Obrigacoes",
+      "patterns": ["QUais são minhas obrigações com o projeto?", "Fui selecionado e agora?"],
+      "responses": ["As empresas selecionadas para receber o financiamento do PIPE têm a obrigação de executar o projeto de pesquisa conforme o plano aprovado, apresentar relatórios de progresso, demonstrar a viabilidade técnica e econômica da inovação proposta e, se aplicável, buscar formas de comercializar o resultado da pesquisa."]
+    },
+    {
+      "tag": "NaoEntendi",
+      "patterns": [],
+      "responses": ["Desculpe, não entendi o que você quis dizer."]
+    }
+  ]
+}
